@@ -1,6 +1,3 @@
-# mac-setup
-setup a new mac
-
 # mac preferences
 - Trackpad > Tap to click
 - Keyboard > Key Repeat > Fast
@@ -13,6 +10,12 @@ defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock
  defaults write com.apple.finder AppleShowAllFiles YES
  
  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ 
+ ##### Installing xcode-select (CLI tools):
+
+```sh
+xcode-select --install
+```
  
   brew install git
   
