@@ -7,7 +7,6 @@
 ##### Autohide dock
 ```sh
 defaults write com.apple.dock autohide-time-modifier -int 0;killall Dock
-defaults write com.apple.finder AppleShowAllFiles YES
 ```
 
 ##### Show all files
